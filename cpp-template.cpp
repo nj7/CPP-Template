@@ -13,6 +13,7 @@
 #define slli(n) scanf("%lld",&n);
 #define ss(n) scanf("%s",n);
 
+using namespace std;
 
 //Print loop for array element in new line
 void print(int a[],int s,int e){for(int i=s;i<=e;i++)cout<<a[i]<<"\n";}
@@ -20,7 +21,7 @@ void print(vector<int> &v,int s,int e){for(int i=s;i<=e;i++)cout<<v[i]<<"\n";}
 //this for loop only works with c++11 and higher
 void print(vector<int> &v){for(int x:v)cout<<x<<"\n";}
 
-using namespace std;
+
 
 int main()
 {
@@ -29,3 +30,5 @@ int main()
     freopen("input.txt","r",stdin);
     freopen("output.txt","w",stdout);
 #endif
+return 0;
+}
