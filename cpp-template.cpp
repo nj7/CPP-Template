@@ -12,7 +12,6 @@
 #define si(n) scanf("%d",&n)
 #define slli(n) scanf("%lld",&n);
 #define ss(n) scanf("%s",n);
-
 using namespace std;
 
 //Print loop for array element in new line
